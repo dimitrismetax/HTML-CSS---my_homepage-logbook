@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">   
+
+    <head>
+        <title>Metaxakis</title>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width">
+        <script src="myBtn.js"></script> 
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    
+    <body>
+            <header>
+                    <div id="menu2">
+                        <img id="photo" src="photo.jpg" alt="Profile photo">
+                        <h2 id="name">Christos Dimitris Metaxakis</h2>
+                        <h3 id="csd">Undergraduated student of Computer Science Department of UoC</h3>
+                    </div>
+                    
+                    <div class="homebar" id="menu1">
+                        <nav>
+                            <ul>
+                                <li><a class="active" href="#home">Home</a></li>
+                                <li><a href="#project">Projects</a></li>
+                                <li><a target="_blank" href="https://www.news.gr/">News</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                            
+                        
+                        <!-- A Search form is another commmon non-linear way to navigate through a website. -->
+                      
+                            <form method="get" target="_blank" action="https://www.google.gr/search?">
+                                <input type="search" name="q" placeholder="Google Search">
+                                <input type="submit" value="Search!">
+                            </form>
+                            <audio style="margin-left: 0%"  controls>
+                                <source src="army.mp3" type="audio/mpeg">
+                              Your browser does not support the audio element.
+                              </audio>
+                        </nav>
+                    </div>
+                </header>
+            
+        <article>
+            <h3>Personal Info</h3>
+            <p>I am 21 years old. I live in Heraklion. I have two younger brothers.
+                My region is from Rethimno, and I like to spend my free time
+                to my village for relaxing. I spend the most time of my everyday life 
+                to the University and to my home for studing. Also I use to watch lectures 
+                via internet about <kbd>programming languages</kbd>.
+                <ul>
+                    <li>
+                        <h4 id="title1">
+                            C/C++
+                        </h4>    
+                        <p>They are the most important languages in which a have worked a lot 
+                            and have done a lot of exercises in many studies of the University.
+                        </p>
+                            
+                        
+                    </li>
+                    <li>
+                        <h4 id="title2">
+                            Java
+                        </h4>    
+                        <p>
+                            It is a very usefull programming language and with Java a create 
+                            a card game for the purpose of studies of the University.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 id="title3">Python</h4>
+                        <p>
+                            Unfortunately I have worked with Python for just a minute but I released 
+                            that is a magnificent programming language which I used to create a project with Networks.
+                        </p>
+                    </li>
+                    <li>
+                        <h4 id="title4">Arduino</h4>
+                        <p>
+                            I started to learn Arduino in young age just for some fun and later I released 
+                            that is a <abbr title="programming language">PL</abbr> with huge potential about creating and building 
+                            funny but also and useful stuff because It is immediately connected to the hardware.
+                        </p>
+                    </li>
+                </ul>
+        </article>
+
+        <section>
+            <h3>Hobbies</h3>
+            <button class="myBtn" onclick="topFunction()" id="myBtn" title="Go to top"><i class='far fa-arrow-alt-circle-up'></i></button>
+            <p>
+                Some of my hobbies are traveling and finf out new places and meet some people.
+                Also like to get busy with developing new devices based on Arduino. 
+                Meanwhile I am glad to help my family and my friends with technology stuff 
+                to make their everyday life easier. On top of these sometimes I like to 
+                do farm work in <a style="text-decoration: none" target="_blank" href="https://www.google.gr/maps/place/Κεφάλι+740+54/@35.3394602,24.760155,17z/data=!4m13!1m7!3m6!1s0x149ba82ca4d586d1:0xdce1169bb584a7c4!2zzprOtc-GzqzOu865IDc0MCA1NA!3b1!8m2!3d35.3391078!4d24.7607909!3m4!1s0x149ba82ca4d586d1:0xdce1169bb584a7c4!8m2!3d35.3391078!4d24.7607909">
+                    my village</a> (Google Maps link) and then chill out with my friends and my family. 
+            </p>
+            <video id="vid" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+              
+            <div class="main" id="project">
+                <h3 id="project1"> Projects</h3>
+                <p>I have completed projects in the following courses:</p>
+                
+                
+                <table id="table" class="table">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th>Courses</th>
+                      <th>Subject</th>  
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td id="c11">1</td>
+                      <td id="c21">Data Structures</td>
+                      <td id="c22">The Empire of Alexander the Great</td>
+                    </tr>
+                    <tr>
+                      <td id="c12">2</td>
+                      <td id="c23">Java Programming</td>
+                      <td id="c24">Ticket to Ride MVC Card Game</td>
+                    </tr>
+                    <tr>
+                      <td id="c13">3</td>
+                      <td id="c25">Networks</td>
+                      <td id="c26">Download files via Relays</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+           
+        </section>
+        <footer>
+            <h3 id="contact">Contact</h3>
+                <p id="contactinfo">Academic e-mail: csd3802@csd.uoc.gr</p>
+                <p id="contactinfo1">Phone: (+30) 698 8697121</p>
+                <a id="icons1" target="_blank" href="https://https://www.facebook.com/Metaxas.98" class="fab fa-facebook-f"></a>
+                <a id="icons2" target="_blank" href="https://www.instagram.com/metaxakis_dim/" class="fab fa-instagram"></a>
+                <a id="icons3" target="_blank" href="mailto:dimitrismetax@gmail.com" class="fas fa-envelope"></a>
+
+                
+        </footer>
+
+        
+
+    
+    </body>
+</html>
